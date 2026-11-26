@@ -37,7 +37,7 @@ Actualmente permite:
 - index.html: estructura principal de la aplicación.
 - css/style.css: estilos y diseño visual.
 - js/script.js: lógica de búsqueda, filtros y copiado de respuestas.
-- docs/alcance.md: definición y alcance del proyecto.
+- docs/alcances.md: definición y alcance del proyecto.
 - ai-context.md: contexto y documentación del desarrollo.
 
 ## Alcance y limitaciones
