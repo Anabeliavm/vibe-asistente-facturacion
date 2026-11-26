@@ -4,15 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Asistente de Consultas de Facturación</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <header>
     <h1>Asistente de Consultas de Facturación</h1>
-    <p>Prototipo para organizar respuestas a consultas frecuentes de proveedores.</p>
+    <p>Una ayuda para responder consultas frecuentes de proveedores</p>
   </header>
 
   <main>
-    <p>La primera versión de esta herramienta se desarrollará en los próximos módulos.</p>
+    <section class="panel">
+      <h2>Buscar una consulta</h2>
+      <input type="text" id="busqueda" placeholder="Escribí una palabra clave...">
+
+      <select id="categoria">
+        <option value="Todas">Todas las categorías</option>
+        <option value="Acceso">Acceso</option>
+        <option value="Carga de comprobantes">Carga de comprobantes</option>
+        <option value="Seguimiento">Seguimiento</option>
+      </select>
+    </section>
+
+    <section class="panel">
+      <h2>Preguntas frecuentes</h2>
+      <div id="listaPreguntas">
+        <p>Las preguntas aparecerán aquí.</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Respuesta sugerida</h2>
+      <p id="respuesta">Seleccioná una pregunta para visualizar una respuesta.</p>
+      <button id="copiar">Copiar respuesta</button>
+      <p id="mensaje"></p>
+    </section>
   </main>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
