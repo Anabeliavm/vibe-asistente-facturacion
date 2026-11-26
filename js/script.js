@@ -37,7 +37,7 @@ const preguntas = [
   {
     pregunta: "¿Cómo sé si se recibió mi comprobante?",
     categoria: "Seguimiento",
-    respuesta: "Hola, podés revisar la información disponible en la plataforma. ."
+    respuesta: "Hola, podés revisar la información disponible en la plataforma."
   },
   {
     pregunta: "¿A quién consulto por un inconveniente?",
