@@ -2,64 +2,63 @@
 
 ## Descripción del proyecto
 
-El Asistente de Consultas de Facturación es un prototipo web pensado para facilitar la respuesta a consultas frecuentes de proveedores sobre el uso de la plataforma donde presentan comprobantes de facturación por servicios y producción de materiales. El objetivo es ofrecer respuestas claras, uniformes y fáciles de reutilizar en Outlook, reduciendo el tiempo dedicado a responder consultas repetitivas.
+Este proyecto consiste en un asistente digital diseñado para facilitar la gestión de consultas frecuentes de proveedores relacionadas con la carga de comprobantes de facturación por servicios y producción de materiales.
 
-El asistente permitirá seleccionar una consulta habitual y visualizar una respuesta sugerida que el usuario podrá revisar, copiar y pegar en un correo electrónico.
+Su objetivo es ahorrar tiempo administrativo, organizar las respuestas y brindar información clara y uniforme.
 
-## Problema que busca resolver
+## Estado actual
 
-Los proveedores realizan consultas reiteradas sobre el ingreso a la plataforma, la carga de comprobantes, la documentación requerida y las etapas generales de verificación y procesamiento para el pago. Responder individualmente estas consultas demanda tiempo administrativo y puede generar diferencias en la información comunicada.
+El proyecto cuenta con un prototipo funcional desarrollado con HTML, CSS y JavaScript.
 
-La propuesta es centralizar respuestas modelo en una herramienta sencilla, para mejorar la claridad y consistencia de la comunicación.
+Actualmente permite:
 
-## Objetivos SMART
+- Buscar preguntas frecuentes mediante palabras clave.
+- Filtrar preguntas por categoría.
+- Seleccionar una consulta.
+- Visualizar una respuesta sugerida.
+- Copiar la respuesta para utilizarla en un correo electrónico.
 
-- **Específico:** desarrollar una herramienta que identifique y ofrezca respuestas sugeridas para consultas frecuentes relacionadas con la presentación de comprobantes de servicios y producción de materiales.
-- **Medible:** incorporar al menos 10 respuestas modelo para las consultas más habituales.
-- **Alcanzable:** construir un prototipo web inicial con HTML, CSS y JavaScript, utilizando Vibe Coding como metodología de apoyo.
-- **Relevante:** facilitar la gestión administrativa, reducir el tiempo dedicado a respuestas repetitivas y mejorar la claridad de las instrucciones para los proveedores.
-- **Temporal:** desarrollar, probar y ajustar el prototipo durante los módulos del curso.
+## Categorías disponibles
 
-## Alcance funcional de la primera versión
+- Acceso.
+- Carga de comprobantes.
+- Seguimiento.
 
-- Mostrar un listado de consultas frecuentes.
-- Permitir seleccionar una consulta y visualizar una respuesta sugerida.
-- Incluir temas como acceso a la plataforma, carga de comprobantes, documentación y etapas generales del proceso.
-- Permitir copiar la respuesta para revisarla y utilizarla en Outlook.
-- Mantener una interfaz simple, clara y de tono profesional.
+## Tecnologías utilizadas
 
-## Límites: qué no hará el proyecto
+- HTML5.
+- CSS3.
+- JavaScript.
+- GitHub.
+- GitHub Pages.
 
-En esta primera etapa, el proyecto:
+## Estructura del proyecto
 
-- No se conectará directamente con Outlook ni enviará correos automáticamente.
-- No accederá a SAP ni a otros sistemas corporativos.
-- No consultará el estado real de facturas, comprobantes o pagos.
-- No validará documentación ni aprobará comprobantes.
-- No modificará datos de proveedores ni gestionará pagos.
-- No almacenará información confidencial, credenciales ni documentación real de proveedores.
+- index.html: estructura principal de la aplicación.
+- css/style.css: estilos y diseño visual.
+- js/script.js: lógica de búsqueda, filtros y copiado de respuestas.
+- docs/alcance.md: definición y alcance del proyecto.
+- ai-context.md: contexto y documentación del desarrollo.
 
-Las respuestas serán orientativas y deberán revisarse antes de enviarse. Los procedimientos concretos deberán completarse y validarse con la documentación oficial correspondiente antes de utilizar el asistente en un entorno real.
+## Alcance y limitaciones
 
-## Tecnologías y metodología
+El asistente ofrece respuestas modelo que deben validarse con los procedimientos oficiales de la empresa.
 
-- **HTML:** estructura de la página.
-- **CSS:** diseño y presentación visual.
-- **JavaScript:** interacción y selección de respuestas.
-- **GitHub:** almacenamiento y seguimiento de versiones del proyecto.
-- **Vibe Coding:** desarrollo asistido por inteligencia artificial, mediante instrucciones en lenguaje natural, revisión y pruebas.
+No se conecta con Outlook, SAP ni otros sistemas corporativos. Tampoco consulta estados reales de facturas ni gestiona pagos.
 
-## Estructura inicial del repositorio
+## Publicación
 
-```text
-vibe-asistente-facturacion/
-├── docs/
-│   └── alcance.md
-├── ai-context.md
-├── index.html
-└── README.md
-```
+El prototipo está disponible en GitHub Pages:
 
-## Estado del proyecto
+https://anabeliavm.github.io/vibe-asistente-facturacion/
 
-Checkpoint 1: repositorio y documentación inicial. El prototipo todavía no está conectado a Outlook ni cuenta con automatizaciones reales.
+## Próximas mejoras
+
+- Ampliar y validar las preguntas frecuentes con el área responsable.
+- Mejorar la experiencia de uso.
+- Incorporar nuevas categorías de consultas.
+- Continuar desarrollando el proyecto durante el curso.
+
+## Proceso de desarrollo
+
+El prototipo fue construido mediante iteraciones, realizando ajustes sobre la estructura HTML, los estilos CSS y la lógica JavaScript a partir de pruebas y devoluciones recibidas.
